@@ -2,26 +2,32 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+# 顶部 Hero 区域
 hero:
   name: "七三的博客"
-  text: "部署网站"
-  tagline: My great project tagline
+  text: "记录技术，分享经验"
+  tagline: "专注算法、Python 与Java项目部署实践"
+  image:
+    src: \imgs\qshr.png
+    alt: 七三的博客 Logo
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始阅读
+      link: /arithmetic
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Markdown 示例
+      link: /markdown-examples
 
 features:
-  - title: Python
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature D
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
----
-
+  - icon: 🧠
+    title: 学习笔记
+    details: 整理前端、后端、部署等技术知识，持续更新中。
+  - icon: 🛠️
+    title: 实用工具
+    details: 收集并开发一些开发中常用的小工具和脚本。
+  - icon: 🚀
+    title: 项目部署
+    details: 包含 VitePress、GitHub Pages、Vercel 等部署教程。
+  - icon: 📚
+    title: Markdown 扩展
+    details: 使用 VitePress 的 Markdown 特性构建美观的文档。
