@@ -1,14 +1,14 @@
 import { defineConfig } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "七三的博客",
   description: "部署网站",
+
   head: [
-    ['link',{rel:'icon',href:'/imgs/favicon.ico'}],// 添加 favicon
+    ['link', { rel: 'icon', href: '/imgs/favicon.ico' }]
   ],
+
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
       { text: '文档', link: '/markdown-examples' }
@@ -16,20 +16,86 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '数组',
+        collapsed: true,
         items: [
-          { text: '算法', link: '/arithmetic' },
-          { text: 'Python', link: '/api-examples' },
-          { text: '算法', link: '/arithmetic' },
-          { text: 'Python', link: '/api-examples' },
-          { text: '算法', link: '/arithmetic' },
-          { text: 'Python', link: '/api-examples' },
-          { text: '算法', link: '/arithmetic' },
-          { text: 'Python', link: '/api-examples' },
-          { text: '111', link: '/api-examples' }
+          { text: '字符串', link: '/algorithm/string' },
+          { text: '数组', link: '/algorithm/array' },
+          { text: '链表', link: '/algorithm/list' }
         ]
-      }
+      },
+      {
+        text: '链表',
+        collapsed: true,
+        items: [
+          { text: '树', link: '/algorithm/tree' },
+          { text: '图', link: '/algorithm/graph' }
+        ]
+      },
+      {
+        text: '哈希表',
+        collapsed: true,
+        items: [
+          { text: '字符串', link: '/algorithm/string' },
+          { text: '数组', link: '/algorithm/array' },
+          { text: '链表', link: '/algorithm/list' }
+        ]
+      },
+      {
+        text: '字符串',
+        collapsed: true,
+        items: [
+          { text: '字符串', link: '/algorithm/string' },
+          { text: '数组', link: '/algorithm/array' },
+          { text: '链表', link: '/algorithm/list' }
+        ]
+      },
+      {
+        text: '栈与队列',
+        collapsed: true,
+        items: [
+          { text: '字符串', link: '/algorithm/string' },
+          { text: '数组', link: '/algorithm/array' },
+          { text: '链表', link: '/algorithm/list' }
+        ]
+      },
+      {
+        text: '二叉树',
+        collapsed: true,
+        items: [
+          { text: '树', link: '/algorithm/tree' },
+          { text: '图', link: '/algorithm/graph' }
+        ]
+      },
+      {
+        text: '回溯',
+        collapsed: true,
+        items: [
+          { text: '字符串', link: '/algorithm/string' },
+          { text: '数组', link: '/algorithm/array' },
+          { text: '链表', link: '/algorithm/list' }
+        ]
+      },
+      {
+        text: '贪心',
+        collapsed: true,
+        items: [
+          { text: '字符串', link: '/algorithm/string' },
+          { text: '数组', link: '/algorithm/array' },
+          { text: '链表', link: '/algorithm/list' }
+        ]
+      },
+      {
+        text: '动态规划',
+        collapsed: true,
+        items: [
+          { text: '字符串', link: '/algorithm/string' },
+          { text: '数组', link: '/algorithm/array' },
+          { text: '链表', link: '/algorithm/list' }
+        ]
+      },
     ],
+
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/baiyev97' }
