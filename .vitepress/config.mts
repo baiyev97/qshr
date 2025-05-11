@@ -18,9 +18,9 @@ export default defineConfig({
       {
         text: 'Examples',
         items: [
-          { text: '算法', link: '/markdown-examples' },
+          { text: '算法', link: '/arithmetic' },
           { text: 'Python', link: '/api-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '111', link: '/api-examples' }
         ]
       }
     ],
