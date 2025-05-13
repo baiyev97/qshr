@@ -16,6 +16,15 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: 'Python',
+        collapsed: true,
+        items: [
+          { text: '选择', link: '/python/pythontest' },
+          { text: '数组', link: '/algorithm/array' },
+          { text: '链表', link: '/algorithm/list' }
+        ]
+      },
+      {
         text: '数组',
         collapsed: true,
         items: [
